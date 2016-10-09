@@ -1,0 +1,30 @@
+/*
+body {
+	background: goldenrod;
+	width: 60%;
+	margin: 0 auto;
+}
+*/
+
+/* ----- EMAIL VALIDATION -------- */
+
+input[type="email"]:valid {
+    color: green;
+}
+
+
+input[type="email"]:invalid {
+	color: red;
+}
+
+
+/* ----- WEBSITE/URL VALIDATION -------- */
+
+
+input[type="url"]:invalid {
+	color: red;
+}
+
+input[type="url"]:valid {
+	color: green;
+}
